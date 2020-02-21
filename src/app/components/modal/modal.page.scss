@@ -1,0 +1,25 @@
+ion-toolbar {
+    --background: transparent;
+    --ion-color-base: transparent !important;
+}
+.productHeader {
+    --background: transparent;
+}
+.btn-close{
+    font-size: 30px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+ion-header::after {
+    background-image: none;
+}
+ion-content{
+    color: #4b4b4b;
+    --font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    img{
+        width: 100px;
+        height: auto;
+    }
+}
+
